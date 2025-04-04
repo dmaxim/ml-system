@@ -13,5 +13,5 @@ resources:
   - argocd-apps/kubeflow-roles.yaml
   - argocd-apps/notebook.yaml
   # - argocd-apps/oidc-auth.yaml - Image for oidc-authservice does not exist
-  - argocd-apps/user-namespace.yaml
+  # - argocd-apps/user-namespace.yaml
   - argocd-apps/volumes.yaml
