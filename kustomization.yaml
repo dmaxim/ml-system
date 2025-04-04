@@ -9,3 +9,5 @@ resources:
   - argocd-apps/kfam.yaml
   - argocd-apps/knative.yaml
   - argocd-apps/kubeflow-ns.yaml
+  - argocd-apps/kubeflow-pipelines.yaml
+  - argocd-apps/kubeflow-roles.yaml
