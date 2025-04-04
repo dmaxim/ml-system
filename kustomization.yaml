@@ -3,3 +3,4 @@ kind: Kustomization
 
 resources:
   - argocd-apps/istio.yaml
+  - argocd-apps/central-dashboard.yaml
