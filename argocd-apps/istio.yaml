@@ -11,7 +11,4 @@ spec:
     path: common/istio-1-16
   destination:
     server: https://kubernetes.default.svc
-  syncPolicy:
-    automated:
-      prune: true
-      selfHeal: true
+  syncPolicy: {}
