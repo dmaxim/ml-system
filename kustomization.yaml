@@ -11,3 +11,5 @@ resources:
   - argocd-apps/kubeflow-ns.yaml
   - argocd-apps/kubeflow-pipelines.yaml
   - argocd-apps/kubeflow-roles.yaml
+  - argocd-apps/notebook.yaml
+  - argocd-apps/oidc-auth.yaml
