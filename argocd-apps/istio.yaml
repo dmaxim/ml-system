@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/dmaxim/ml-system.git
     targetRevision: main
-    path: common/istio-1-16
+    path: common/istio-1-25
   destination:
     server: https://kubernetes.default.svc
   syncPolicy: {}

@@ -3,15 +3,15 @@ kind: Kustomization
 
 resources:
   - argocd-apps/istio.yaml
-  - argocd-apps/admission-webhook.yaml
-  - argocd-apps/central-dashboard.yaml
-  - argocd-apps/dex.yaml
-  - argocd-apps/kfam.yaml
-  - argocd-apps/knative.yaml
-  - argocd-apps/kubeflow-ns.yaml
-  - argocd-apps/kubeflow-pipelines.yaml
-  - argocd-apps/kubeflow-roles.yaml
-  - argocd-apps/notebook.yaml
-  # - argocd-apps/oidc-auth.yaml - Image for oidc-authservice does not exist
-  # - argocd-apps/user-namespace.yaml
-  - argocd-apps/volumes.yaml
+  # - argocd-apps/admission-webhook.yaml
+  # - argocd-apps/central-dashboard.yaml
+  # - argocd-apps/dex.yaml
+  # - argocd-apps/kfam.yaml
+  # - argocd-apps/knative.yaml
+  # - argocd-apps/kubeflow-ns.yaml
+  # - argocd-apps/kubeflow-pipelines.yaml
+  # - argocd-apps/kubeflow-roles.yaml
+  # - argocd-apps/notebook.yaml
+  # # - argocd-apps/oidc-auth.yaml - Image for oidc-authservice does not exist
+  # # - argocd-apps/user-namespace.yaml
+  # - argocd-apps/volumes.yaml
