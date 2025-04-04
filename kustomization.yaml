@@ -4,3 +4,7 @@ kind: Kustomization
 resources:
   - argocd-apps/istio.yaml
   - argocd-apps/central-dashboard.yaml
+  - argocd-apps/dex.yaml
+  - argocd-apps/kfam.yaml
+  - argocd-apps/knative.yaml
+  - argocd-apps/kubeflow-ns.yaml
