@@ -3,6 +3,7 @@ kind: Kustomization
 
 resources:
   - argocd-apps/istio.yaml
+  - argocd-apps/prometheus.yaml
   # - argocd-apps/admission-webhook.yaml
   # - argocd-apps/central-dashboard.yaml
   # - argocd-apps/dex.yaml
